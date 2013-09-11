@@ -127,7 +127,7 @@ We recommend using Akka in Scala to manage the fault handling and create a horiz
 Requirements
 ---------------------
 
-- use Play Framework (at least 2.0.1 Final)
+- use Play Framework (>= 2.1.3 Final)
 - write some automated tests
 - the source code must be under version control
 - you can edit the README file in order to explain your choices and how to run the application
@@ -141,5 +141,3 @@ Resource
 - Play framework: (http://www.playframework.org/)
 - Akka:  (http://akka.io/)
 - Scala: (http://www.scala-lang.org/)
-
-You can send the github link of the application or the zip file to careers@fivecool.org
