@@ -121,9 +121,6 @@ Objectives
 - The operations must be non-blocking I/O
 
 
-We recommend using Akka in Scala to manage the fault handling and create a horizontally scalable application. But you can use pure java/scala or other java libraries to meet the objectives.
-
-
 Requirements
 ---------------------
 
