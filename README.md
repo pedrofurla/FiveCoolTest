@@ -113,7 +113,7 @@ Objectives
 ---------------------
 
 - We want do save the creation date with the JSON data
-- Data must be consistent between data and counters.  This includes consistent handling between the time resolutions and individual user counters.  For example the count of JSON data saved should equal the total number of increments.
+- Data must be eventually consistent between data and counters.  This includes consistent handling between the time resolutions and individual user counters.  For example the count of JSON data saved should equal the total number of increments.
 - Handle data store errors with the following fault handling:
 - if a StorageException is thrown redo the operation.
 - if it failed 5 times, you need to do a pause of 10 seconds and try gain
@@ -141,12 +141,5 @@ Resource
 - Play framework: (http://www.playframework.org/)
 - Akka:  (http://akka.io/)
 - Scala: (http://www.scala-lang.org/)
-
-
-Bonus
----------------------
-
-Explain how to calculate the number of unique users per time resolution and implement a solution.
-
 
 You can send the github link of the application or the zip file to careers@fivecool.org
