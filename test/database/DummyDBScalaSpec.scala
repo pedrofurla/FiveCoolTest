@@ -9,6 +9,9 @@ import scala.DummyDBScala
  *
  */
 class DummyDBScalaSpec extends Specification {
+
+  args(skipAll = true)
+
   val db = DummyDBScala
   "datastore increment operation " should {
     "increment data for a new key" in {

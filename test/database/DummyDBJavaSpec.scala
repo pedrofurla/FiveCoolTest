@@ -9,6 +9,9 @@ import org.specs2.mutable.Specification
  *
  */
 class DummyDBJavaSpec extends Specification {
+
+  args(skipAll = true)
+
   val db = DummyDBJava.INSTANCE
   "datastore increment operation " should {
     "increment data for a new key" in {
